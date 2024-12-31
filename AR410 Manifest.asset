@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7253532324814736047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
+  m_Name: AssemblyDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - C:\Users\coren\AppData\Roaming\r2modmanPlus-local\Receiver2\profiles\Default\BepInEx\plugins\CiarenceW-AR410
+  definitions:
+  - {fileID: 5897886265953266890, guid: 4ff3fdfe8240b014790dedb8564d8c61, type: 3}
+--- !u!114 &-7199041026915977598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - C:\Users\coren\AppData\Roaming\r2modmanPlus-local\Receiver2\profiles\Default\BepInEx\plugins\CiarenceW-AR410
+  includeMetaFiles: 0
+  files:
+  - {fileID: 4900000, guid: 62e928cafa51ff74da42e0ee7434cf1d, type: 3}
+  - {fileID: 4900000, guid: ed9601a9e732002458cc4bd3a234b155, type: 3}
+  - {fileID: 102900000, guid: dc4fcb3107265ce49ad29be7330b3811, type: 3}
+  - {fileID: 102900000, guid: f6cf25cab20f92d418d69dedf45cc35b, type: 3}
+  - {fileID: 102900000, guid: 00e1516ac36e73d48b7d4945f8109da5, type: 3}
+--- !u!114 &-4557745545373457695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d1008b78cb6e846889b7778282fbef, type: 3}
+  m_Name: AssetBundleDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - C:\Users\coren\AppData\Roaming\r2modmanPlus-local\Receiver2\profiles\Default\BepInEx\plugins\CiarenceW-AR410
+  assetBundles:
+  - assetBundleName: ciarencew-ar410.windows
+    assets:
+    - {fileID: 4446475798346629184, guid: fe90d5f70bf873342ab1c7314360fc63, type: 3}
+    - {fileID: 1778694509205478084, guid: 765d542b36aedd445bb7e0371adf9340, type: 3}
+    - {fileID: 357510324544102790, guid: 2ab9d983428c99549a9f00305c0e09f1, type: 3}
+    - {fileID: 11400000, guid: 40b111f5563763a4cb9cce5fa154f685, type: 2}
+    - {fileID: 5326442666244740090, guid: d07525ac6d727f04dbe37a5738e43141, type: 3}
+    - {fileID: 7393394679251328166, guid: d7763e777c6c1aa40a90d138ae6c436f, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
+  m_Name: AR410 Manifest
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: 7941147326332531612}
+  - {fileID: -7253532324814736047}
+  - {fileID: -4557745545373457695}
+  - {fileID: -7199041026915977598}
+  identity: {fileID: 7941147326332531612}
+  QuickAccess: 0
+--- !u!114 &7941147326332531612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
+  m_Name: ManifestIdentity
+  m_EditorClassIdentifier: 
+  StagingPaths: []
+  Author: CiarenceW
+  Name: AR410
+  Description: A full-auto only AR pattern shotgun firing .410 bore
+  Version: 1.0.0
+  Dependencies:
+  - {fileID: 11400000, guid: ac948e712e82b4342afad8444c5eaacd, type: 2}

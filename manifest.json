@@ -1,0 +1,10 @@
+{
+    "name": "AR410",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/CiarenceW/AR410",
+    "description": "Fully automatic AR-pattern rifle chambered in .410 bore.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+		"Szikaka-Receiver_2_Modding_Kit-1.1.0"
+    ]
+}
